@@ -1,0 +1,75 @@
+body{
+  text-align: center;
+  color:darkslategray;  
+  align-content: center;
+}
+h1{
+  font-size:30px;
+  color: blue;
+  font-family:monospace;
+  text-align: center;
+}
+h2{
+  font-size:20px;
+  color: blue;
+  font-family:monospace;
+  text-align: center;
+}
+h3{
+  font-size:20px;
+  color: darkslategray;
+  font-family: monospace;
+  border-radius:20;
+  border-color:darkslategray;
+  text-align: center
+}
+
+}
+p{ font-size:15px;
+  color: darkslategray;
+  font-family: monospace;
+}
+ol{
+  font-family: monospace;
+  color: darkslategray;
+  font-size:18px;
+}
+img{
+  border-radius:20;
+  border-color:blue;
+  float: right ;
+  width: 300px;
+  margin: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.container {
+  display: flex;
+  border-style:solid;
+  border-color:black;
+  flex-grow: 1;
+  padding: 20px;
+}
+/* div container for verbal bullying*/ 
+
+.img {
+  border-style:solid;
+  border-color:black;
+  flex-grow: 1;
+  padding: 20px;
+  align-content:left;
+  /* div container for verbal bullying images*/ 
+}
+.info {
+align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+  flex-direction: column-reverse;
+  }
+/* div container for examples of verbal bullying*/ 
+  
+  
+  
